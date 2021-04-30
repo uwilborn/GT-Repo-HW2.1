@@ -1,4 +1,4 @@
-/* Container holding the image and the text */
+Container holding the image and the text */
 .nameHeader {
     position: relative;
     text-align: center;
@@ -10,32 +10,49 @@
     position: absolute;
     top: 8px;
     left: 16px;
-  }
+  } 
 
   .center {
     position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  }
-  
+  } 
+
   .headerFont {
-      font-size:xx-large;
+      font-size: 64px;
   }
 
-.qualityAssurance {
-    height: 300px;
+#IntroImage {
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("https://lh3.googleusercontent.com/proxy/oX0JZAJZivPiqvM30Q5hnXoBAmwOq-SqYK-ZSkv7DAakX3-YkcHa_47aSaio3HUvs9Q_9uazUiOe1MwaqJov2QbPMhEnVGvlZvNA");
+    background-image: url("./Intro_Image.jpg");
     background-size: cover;
     background-position: center;
+  
 }
-.subHeader {
-    border-style: solid;
+
+
+    .subHeader {
+      background: linear-gradient(to bottom, #0099cc 0%, #66ccff 100%);
     border-width: 1px;
     padding: 10px;
     margin: 20px;
-    flex: 0 0 300px;
+    flex: 1;
+    flex-shrink: 2;
+    flex-basis: 100px;
+    border-radius: 30%;
+    display: inline-block;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainFormat {
+    background-color: cornflowerblue;
+    font-size: 24px;
     border-radius: 0%;
 }
