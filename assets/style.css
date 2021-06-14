@@ -1,24 +1,25 @@
 Container holding the image and the text */
 .nameHeader {
-  border-bottom: 10px solid black;      
-  
+  border-bottom: 10px solid black; 
+  display: flex;
+   flex-direction: row;  
   }
 
   /* Top left name header text */
 .bottom-center {
-  position: absolute;
+  /* position: absolute;
   top: 20%;
-  left: 50%;
+  left: 50%; */
   font-size: 50px;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   } 
 
   .center {
-  position: absolute;
+  /* position: absolute;
   top: 10%;
-  left: 50%;
-  font-size: 64px;
-  transform: translate(-50%, -50%);
+  left: 50%; */
+  font-size: 48px;
+    /* transform: translate(-50%, -50%); */
   } 
 
   .navFormat {
@@ -30,9 +31,9 @@ Container holding the image and the text */
     height: 400px;
     width: 20%;
     margin-bottom: 25px;
-    background-image: url("./Intro_Image.jpg");
+    /* background-image: url("./Intro_Image.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
   }
 
     .subHeader {
@@ -47,11 +48,11 @@ Container holding the image and the text */
     display: inline-block;
       }
 
-p {
+/* p {
   border:  1px solid black; 
   flex: 3
   
-} 
+}  */
 
 .mainFormat {
     background-color: grey;
@@ -64,18 +65,18 @@ p {
   margin-left: 20px;
   padding: 20px;
   clear: both;
-  float: left;
   width: 20%;
   height: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #696c6e;
+  display: inline-block;
 }
 
 .Right-Aside {
   margin-right: 20px;
   padding: 20px;
   clear: both;
-  width: 20%;
+  width: 70%;
   height: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #e3e3e9;
@@ -90,11 +91,15 @@ div.Aside-Format img {
   max-height: 200px;
 }
 
-@media screen and (max-width: 1500px){
-  section {
-    background:red;
-  }
+.projectContainer {
+  display: flex;
 }
+
+.projectCard {
+  border: 1px solid black;
+}
+
+
 .footer {
   padding: 30px;
   clear: both;
@@ -104,4 +109,22 @@ div.Aside-Format img {
 
 .footer h3 {
   font-size: 20px;
+}
+@media screen and (max-width: 400px){
+  .center {
+    font-size: 28px;
+    top: 2%;
+  }
+  .bottom-center {
+    font-size: 28px;
+    top: 4%
+  }
+  #IntroImage {
+    width: 20%;
+    height: 20%;
+
+  }
+  .subHeader {
+    border-width: 50px;
+  }
 }
