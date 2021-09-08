@@ -192,7 +192,7 @@
   height: 90%;
 }
 
-#password, #planner {
+#password, #planner, #project1 {
   width: 95%;
   height: 85%;
 }
@@ -204,7 +204,7 @@
 width: 15%;
 }
 
-#pc2, #pc3 {
+#pc2, #pc3, #pc4 {
   color: black;
   background-color: cornsilk;
   /* margin-top: 40%; */
