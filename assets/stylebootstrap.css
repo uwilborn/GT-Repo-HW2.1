@@ -7795,11 +7795,14 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-image: url(pexels-markus-spiske-1089438.jpg) !important;
+  /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
+  background-image: url("pexels-markus-spiske-1089438.jpg");
+  background-size: 1500px;
+  background-repeat: no-repeat;
 }
 
 .bg-secondary {
-  /* --bs-bg-opacity: 1000; */
+  --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -11347,7 +11350,7 @@ html {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: rgb(94, 86, 86);
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
