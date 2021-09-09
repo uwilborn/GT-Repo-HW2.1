@@ -7796,9 +7796,9 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
-  background-image: url("pexels-markus-spiske-1089438.jpg");
-  background-size: 1500px;
-  background-repeat: no-repeat;
+  background-image: url("background\ image.jpg");
+  /* background-size: 1500px; */
+  /* background-repeat: no-repeat; */
 }
 
 .bg-secondary {
