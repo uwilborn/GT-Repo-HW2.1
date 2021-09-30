@@ -1,14 +1,9 @@
 .header {
   /* border-bottom: 10px solid black;  */
-  /* padding: 20px; */
+  padding: 20px;
   font-family: 'Trebuchet MS';
-  background-image: url("./background\ image2.jpg");
-  /* background-color:black; */
+  background-color:black;
   color:whitesmoke;
-  image-resolution: 10px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   }
 
   /* Top left name header text */
@@ -31,18 +26,17 @@
   } 
 
   .header nav {
-     font-size: 46px;
+     font-size: 32px;
       padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans';
        
   }
 
   /*Navigation list specification*/
 .header nav ul {
   list-style-type: none;
-  background: black;
   
 }
 
@@ -192,7 +186,7 @@
   height: 90%;
 }
 
-#password, #planner, #project1 {
+#password, #planner {
   width: 95%;
   height: 85%;
 }
@@ -204,7 +198,7 @@
 width: 15%;
 }
 
-#pc2, #pc3, #pc4 {
+#pc2, #pc3 {
   color: black;
   background-color: cornsilk;
   /* margin-top: 40%; */
